@@ -1,0 +1,310 @@
+/*Contact Form*/
+
+body{
+    margin-left: 150;
+    margin-right: 150px; 
+    /*width: 960px;*/
+    background-color: rgb(221, 214, 214);
+}
+
+#name{
+    /* width: 150px; */
+    margin-left: 170px;
+    font-size: 40px;
+    background-color: teal;
+    color: seashell;
+    float: left;
+    height: 61px;
+}
+.active {
+    background-color: teal;
+	color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.blankspace
+{
+padding : 1px 30px;
+}
+
+.rightnav
+{
+    float: right;
+    margin-right: 20px;
+}
+#afterheaderContact{
+    font-size: 30px;
+    color: teal;
+    clear: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#footer-contentcontact {
+    background:gray;
+    text-align: center;
+    color: white;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: teal;
+} 
+#header-contentcontact{
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+#mainContact{
+    background-color: white; 
+    width: 600px;
+    height: 380px;
+
+}
+.contactform{
+    margin-left: 20px;
+}
+.fa {
+    padding: 8px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: rgb(22, 121, 196);
+    color: white;
+}
+.connect{
+    font-size: 20px;
+    color: teal;
+}
+.columnleft{
+display: inline;
+}
+.columnright{
+display: inline;
+}
+
+
+
+/*Portfolio Form*/
+
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 960px;
+    background-color: rgb(221, 214, 214);
+}
+
+#name {
+    /* width: 150px; */
+    margin-left: 170px;
+    font-size: 40px;
+    background-color: teal;
+    color: seashell;
+    float: left;
+    height: 61px;
+}
+
+.buttongroup {
+    float: right;
+    padding: 20px;
+}
+
+#afterheaderPortfolio {
+    font-size: 30px;
+    color: teal;
+    clear: left;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#footer-contentportfolio {
+    background: gray;
+    text-align: center;
+    color: white;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: teal;
+}
+
+#header-contentportfolio {
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+#mainPortfolio {
+    background-color: white;
+    width: 600px;
+    height: 380px;
+
+}
+.portfolio{
+    margin-left: 20px;
+    display: block;
+    max-width:230px;
+    max-height:230px;
+    width: auto;
+    height: auto;
+}
+
+.imgContainer{
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: teal;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*Index(aboutme) Form*/
+
+body{
+    margin-left: 150px;
+    margin-right: 150px; 
+    width: 960px;
+    background-color: rgb(221, 214, 214);
+}
+
+#name{
+    /* width: 150px; */
+    margin-left: 170px;
+    font-size: 40px;
+    background-color: teal;
+    color: seashell;
+    float: left;
+    height: 61px;
+}
+.buttongroup{
+    float: right;
+    padding: 20px;
+}
+#afterheaderindex{
+    font-size: 30px;
+    color: teal;
+    clear: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding: 10px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#profileimgindex{
+    float: left;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+#footer-contentindex {
+    background:gray;
+    text-align: center;
+    color: white;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: teal;
+} 
+#header-contentindex{
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+#mainindex{
+    background-color: white;
+    height: 350px; 
+   
+}
+#abtmeconindex{
+    margin-left: 20px;
+    margin-right: 20px;
+}
